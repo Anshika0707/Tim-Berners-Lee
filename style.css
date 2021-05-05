@@ -14,11 +14,7 @@ body {
     position: absolute;
     height: 800px;
     color: #FFFFFF;
-    left: 0;
-    top: 0;
     bottom: 0;
-    right: 0;
-    opacity: 0.83;
     background: linear-gradient(#60ebeb 0%, #27ae60 100%);
     display: table;
     width: 100%;
@@ -76,28 +72,25 @@ p {
 .menu {
     list-style: none;
     position: fixed;
-    top: 10px;
-    right: 30px;
+    top: 0px;
     cursor: pointer;
     z-index: 10;
-
-
+    background: white;
+    width: 100%
 }
 
 .link {
-    float: left;
     color: cadetblue;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left:33px;
+    padding-right: 25px;
     font-family: monospace;
     font-size: 22px;
+    display: inline;
 }
 
 .link:hover {
     background-color: blueviolet;
-
+    text-decoration: underline;
 }
 
 a {
@@ -111,4 +104,19 @@ a {
 
 html {
     scroll-behavior: smooth;
+}
+#contacts {
+    background: firebrick;
+}
+#contacts iframe {
+width: 100%;
+    
+}
+.contact h3 {
+display: inline;
+    
+}
+.contact a {
+color: white;
+    text-shadow: none;
 }
